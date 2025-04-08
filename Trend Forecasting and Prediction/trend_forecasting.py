@@ -74,3 +74,30 @@ plt.xlabel('Time')
 plt.ylabel('Value')
 plt.legend()
 plt.show()
+
+"""
+# Financial Forecasting in Python: Code Summary
+
+## Overview
+This code is a hands-on introduction to financial forecasting using Python. We generate synthetic financial data and apply two different forecasting models: Linear Regression and ARIMA. The goal is to predict future trends based on historical data.
+
+## Key Components
+
+### 1. Data Generation and Preprocessing
+- We start by creating synthetic financial data. This approach is great for learning as it avoids the complexities of real-world data.
+- The dataset is divided into two parts: training data for building our models and testing data for evaluating them.
+
+### 2. Linear Regression Model
+- First, we use a simple linear regression model. It's a basic yet powerful tool for trend forecasting.
+- After fitting the model to the training data, we make predictions for the test data.
+- We calculate Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) to assess the model's accuracy.
+
+### 3. ARIMA Model
+- Next, we explore the ARIMA model, a more advanced method for time series forecasting.
+- `auto_arima` helps us automatically find the best parameters for the ARIMA model.
+- Like with linear regression, we evaluate the ARIMA model's performance using MAE, MSE, and RMSE.
+
+### 4. Visualization
+- We plot the actual and predicted trends for both models. This visual representation helps us understand how well our models are performing.
+- By comparing these plots, you can visually assess the accuracy of each model.
+"""
